@@ -1,4 +1,4 @@
-t# 🎥 YouTube Database Project (Level 2)
+## 🎥 YouTube Database Project (Level 2)
 
 ## 📄 Description – Exercise Statement
 
