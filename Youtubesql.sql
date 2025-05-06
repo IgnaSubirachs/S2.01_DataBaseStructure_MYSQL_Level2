@@ -7,7 +7,7 @@ CREATE TABLE `Channel` (
   `user_id` int NOT NULL,
   `name` varchar(100) NOT NULL,
   `description` text,
-  `creation_date` date DEFAULT NULL,
+  `creation_date` datetime DEFAULT NULL,
   PRIMARY KEY (`channel_id`),
   KEY `user_id` (`user_id`),
   CONSTRAINT `channel_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `USER` (`user_id`)
@@ -79,7 +79,7 @@ CREATE TABLE `User` (
   `email` varchar(100) NOT NULL,
   `password` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `username` varchar(50) NOT NULL,
-  `birth_date` date DEFAULT NULL,
+  `birth_date` datetime DEFAULT NULL,
   `gender` enum('male','female','other') DEFAULT NULL,
   `country` varchar(100) DEFAULT NULL,
   `postal_code` varchar(10) DEFAULT NULL,
