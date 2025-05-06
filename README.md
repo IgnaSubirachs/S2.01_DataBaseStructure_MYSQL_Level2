@@ -14,7 +14,7 @@ The schema supports different user types (free and premium), payment methods (cr
 - **ER modeling concepts**
 - SQL-compatible development tools (e.g., MySQL Workbench, DBeaver, phpMyAdmin)
 
-![foto](Spotify.png)
+![foto](Youtube.png)
 
 ## 📋 Requirements
 
